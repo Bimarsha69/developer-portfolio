@@ -2,12 +2,21 @@
 
 This is a developer portfolio website built using Next.js, Tailwind CSS, and shadcn/ui. It features a responsive design, dynamic project showcase, and a contact form.
 
+![Developer Portfolio Website](https://placehold.co/600x400?text=Developer+Portfolio+Website)
+
 ## Features
 
-- Responsive design
-- Dynamic project showcase
-- Contact form
-- Light/dark mode toggle
+- Responsive design for mobile, tablet, and desktop views
+- Dynamic project showcase with filtering options
+- Interactive UI/UX with smooth animations
+- Light/dark mode toggle with distinct color themes
+- Detailed project pages with live demo links and GitHub repository links
+- Dynamic skill representation with interactive graphs
+- Blog section with Markdown support
+- Contact form with spam protection
+- Stylish social media links with animations
+- Fast load times with optimized assets and lazy loading
+- Hidden Developer Panel for managing projects and content
 
 ## Getting Started
 
