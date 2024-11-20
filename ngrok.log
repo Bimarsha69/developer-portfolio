@@ -1,0 +1,36 @@
+Error: RequestError: connect ECONNREFUSED 127.0.0.1:4040
+    at ClientRequest.<anonymous> (/home/user/web-app/node_modules/got/dist/source/core/index.js:970:111)
+    at Object.onceWrapper (node:events:634:26)
+    at ClientRequest.emit (node:events:531:35)
+    at origin.emit (/home/user/web-app/node_modules/@szmarczak/http-timer/dist/source/index.js:43:20)
+    at emitErrorEvent (node:_http_client:101:11)
+    at Socket.socketErrorListener (node:_http_client:504:5)
+    at Socket.emit (node:events:519:28)
+    at emitErrorNT (node:internal/streams/destroy:169:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:128:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1607:16) {
+  code: 'ECONNREFUSED',
+  timings: {
+    start: 1732095421089,
+    socket: 1732095421089,
+    lookup: undefined,
+    connect: undefined,
+    secureConnect: undefined,
+    upload: undefined,
+    response: undefined,
+    end: undefined,
+    error: 1732095421090,
+    abort: undefined,
+    phases: {
+      wait: 0,
+      dns: undefined,
+      tcp: undefined,
+      tls: undefined,
+      request: undefined,
+      firstByte: undefined,
+      download: undefined,
+      total: 1
+    }
+  }
+}
